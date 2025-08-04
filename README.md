@@ -1,14 +1,43 @@
 # Scan-Your-Local-Network-for-Open-Ports
-# Learn to discover open ports on devices in your local network to understand network exposure.
+# Discover open ports in local network to understand network exposure.
 
-# Installation of Nmap from Official website (Link: https://nmap.org/download.html)
-#   Cicked on "Windows Installer"
-#   Download the nmap-<version>-setup.exe file (e.g., Latest stable release self-installer: nmap-7.97-setup.exe).
-#   Run the Installer
-#   Double-click the downloaded .exe file and follow the setup wizard.
-#   During Installation, Choose Components, Leave the default options selected (includes Nmap, Zenmap GUI).
-#   Finish Installation
-#   After completing, open Command Prompt and type: 
-#     nmap --version
-#     nmap -v scanme.nmap.org
+# Installed Nmap Zenmap (GUI) & Wireshark
+# First identified the Nmap version using Zenmap
+nmap --version
+# Then scanned the nmap
+nmap -v scanme.nmap.org
+# From nmap scanning identified the ports, Services and state of each ports
+# Identified open ports are 22, 80, 9929 and 31337
+# Services are ssh, http, nping-echo and Elite
 
+# Then identified the IP address and Subnet mask to get the IP range
+# IPv4 Address = 192.168.31.138
+# Subnet Mask = 255.255.255.0
+# Network IP range =  192.168.31.0 to 192.168.31.255
+# Total usable IPs: 254
+
+# Then found the Nmap report in command promt using same 192.168.31.0/24 in Target and command with nmap -sS 192.168.31.0/24
+# Found the tcp ports, services and open state in command prompt
+# IP address is 192.168.31.138
+# Open ports are 135, 445 and 5432
+# Services are msrpc, microsoft-ds and postgresql
+
+# After that installed wireshark
+# Then analyzed the packet capture which newly created .pcap with Wireshark
+# Found the three ection and identified the ervice in the protocol ection 
+# Identified the common ervice
+
+# Then identified the rik from open port like 
+# Unauthorized Access – Hackers may brute-force login ports like SSH (22), RDP (3389).
+# Service Exploits – Attackers can target vulnerable services running on open ports.
+# Information Leakage – Ports like SNMP or Telnet may leak system info.
+# Malware Channels – Malware can use open ports to communicate with C2 servers.
+# DDoS Attacks – Ports like DNS (53) and NTP (123) can be used in amplification attacks.
+# Insecure Protocols – Ports running FTP (21), Telnet (23), or HTTP (80) transmit data without encryption.
+# Unnecessary Exposure – Every open port increases the attack surface.
+
+# OUTCOME RECEIVED
+# IP addre, ubnet Mak and IP Range Identified
+# canned the open ports
+# Identified the rik of the open port
+# Undertood the limit 
