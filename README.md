@@ -24,10 +24,10 @@ nmap -v scanme.nmap.org
 
 # After that installed wireshark
 # Then analyzed the packet capture which newly created .pcap with Wireshark
-# Found the three ection and identified the ervice in the protocol ection 
-# Identified the common ervice
+# Found the three section and identified the service in the protocol section 
+# Identified the common service
 
-# Then identified the rik from open port like 
+# Then identified the risk from open port like 
 # Unauthorized Access – Hackers may brute-force login ports like SSH (22), RDP (3389).
 # Service Exploits – Attackers can target vulnerable services running on open ports.
 # Information Leakage – Ports like SNMP or Telnet may leak system info.
@@ -37,7 +37,7 @@ nmap -v scanme.nmap.org
 # Unnecessary Exposure – Every open port increases the attack surface.
 
 # OUTCOME RECEIVED
-# IP addre, ubnet Mak and IP Range Identified
-# canned the open ports
-# Identified the rik of the open port
+# IP address, subnet Mak and IP Range Identified
+# scanned the open ports
+# Identified the risk of the open port
 # Undertood the limit 
