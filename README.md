@@ -14,6 +14,11 @@
 
 
 #------------------------------------------------------------------------------
+
+#  After installation open Command Prompt or Zenmap GUI.
+<img width="708" height="688" alt="image" src="https://github.com/user-attachments/assets/fd613431-7b24-4976-a480-dd0483c35cd6" />
+
+
 # First identified the Nmap version using Zenmap
 nmap --version
 <img width="945" height="440" alt="image" src="https://github.com/user-attachments/assets/e8f164f3-956e-46ab-a4ce-287c6faadd3c" />
