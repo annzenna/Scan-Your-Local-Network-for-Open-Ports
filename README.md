@@ -1,20 +1,23 @@
 # Scan-Your-Local-Network-for-Open-Ports
 # Discover open ports in local network to understand network exposure.
-#-----------------------------------------------------------------------------
+
+*****************************************************************************************************************************************************
+
 # Nmap Zenmap (GUI) Installation
+
 Official website : https://nmap.org/download.html
 
 <img width="1552" height="909" alt="image" src="https://github.com/user-attachments/assets/666d273a-43f3-4389-a7da-60d0618fa1bf" />
                 
 Click on Windows OR https://nmap.org/download.html#windows
+
 <img width="928" height="443" alt="image" src="https://github.com/user-attachments/assets/b766c06f-b939-429e-8839-a0603bccb5aa" />
                 
                 
-                # Selected Latest stable release self-installer: nmap-7.97-setup.exe
-                <img width="379" height="72" alt="image" src="https://github.com/user-attachments/assets/d526f8c9-b8b2-4384-a60d-4af87479c817" />
+Selected Latest stable release self-installer: nmap-7.97-setup.exe
 
+<img width="379" height="72" alt="image" src="https://github.com/user-attachments/assets/d526f8c9-b8b2-4384-a60d-4af87479c817" />
 
-#------------------------------------------------------------------------------
 
 #  After installation open Command Prompt or Zenmap GUI.
 <img width="708" height="688" alt="image" src="https://github.com/user-attachments/assets/fd613431-7b24-4976-a480-dd0483c35cd6" />
