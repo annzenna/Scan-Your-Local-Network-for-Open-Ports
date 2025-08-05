@@ -82,6 +82,14 @@ Type this command:
         Network IP range =  192.168.31.0 to 192.168.31.255
         Total usable IPs: 254
 
+
+Run below command to perform TCP SYN Scan
+
+      nmap -sS 192.168.31.0/24
+      
+
+
+
 After receving the Network IP Range need to take the nmap report using Zenmap, 
 
 Entered target as 192.168.31.0/24 in the command promt and command with nmap -sS 192.168.31.0/24.
@@ -97,21 +105,41 @@ Entered target as 192.168.31.0/24 in the command promt and command with nmap -sS
 
 # Wireshark Installation
 
-Analyzed the packet capture which newly created .pcap with Wireshark
-# Found the three section and identified the service in the protocol section 
-# Identified the common service
+To install Wireshark on a Windows system, follow these steps:
 
-# Then identified the risk from open port like 
-# Unauthorized Access – Hackers may brute-force login ports like SSH (22), RDP (3389).
-# Service Exploits – Attackers can target vulnerable services running on open ports.
-# Information Leakage – Ports like SNMP or Telnet may leak system info.
-# Malware Channels – Malware can use open ports to communicate with C2 servers.
-# DDoS Attacks – Ports like DNS (53) and NTP (123) can be used in amplification attacks.
-# Insecure Protocols – Ports running FTP (21), Telnet (23), or HTTP (80) transmit data without encryption.
-# Unnecessary Exposure – Every open port increases the attack surface.
+    Go to the official website: https://www.wireshark.org
+    
+    Click “Download” for Windows.
+    
+    Choose the appropriate installer (usually the 64-bit Windows Installer).
+
+    Click Install to begin. Wait for the process to complete.
+
+After Installation
+   
+    Launch Wireshark from the desktop or Start Menu.
+    
+    Select a network interface to start capturing packets.
+
+
+
+
+Analyzed the packet capture which newly created .pcap with Wireshark
+Found the three section and identified the service in the protocol section 
+Identified the common service
+
+Identified the risk from open port like 
+
+    Unauthorized Access – Hackers may brute-force login ports like SSH (22), RDP (3389).
+    Service Exploits – Attackers can target vulnerable services running on open ports.
+    Information Leakage – Ports like SNMP or Telnet may leak system info.
+    Malware Channels – Malware can use open ports to communicate with C2 servers.
+    DDoS Attacks – Ports like DNS (53) and NTP (123) can be used in amplification attacks.
+    Insecure Protocols – Ports running FTP (21), Telnet (23), or HTTP (80) transmit data without encryption.
+    Unnecessary Exposure – Every open port increases the attack surface.
 
 # OUTCOME RECEIVED
-# IP address, subnet Mak and IP Range Identified
-# scanned the open ports
-# Identified the risk of the open port
-# Undertood the limit 
+    Practiced the Nmap Scanning to identify the open ports
+    Identification of IP address, subnet Mak and IP Range Identified
+    Identified the risks of the open port
+    
