@@ -33,6 +33,7 @@ nmap --version
 
 Scanned the nmap
 nmap -v scanme.nmap.org
+
 <img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/743b5a5f-5c76-4b3f-813f-c181fe5ffadf" />
 
 
