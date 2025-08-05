@@ -61,22 +61,26 @@ First need to open the command prompt using
     
 <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/22e24c5f-e4b7-46d2-bcb1-bd96aea922ff" />
 
-    Type cmd 
 
-press Enter.
+Type cmd, press Enter.
+
+
 <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/c49f7cbe-09ed-47d9-b0fc-100b14a9089f" />
 
-# Command prompt opened
-<img width="1482" height="731" alt="image" src="https://github.com/user-attachments/assets/1fd11598-6c94-486b-801e-2e196c6d03ce" />
+Command prompt opened
 
-# Next need to type this command: ipconfig
-<img width="910" height="684" alt="image" src="https://github.com/user-attachments/assets/40bbcb0b-c4cd-4191-a828-9946f8c36838" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/1fd11598-6c94-486b-801e-2e196c6d03ce" />
 
-# Found 
-        # IPv4 Address = 192.168.31.39
-        # Subnet Mask = 255.255.255.0
-        # Network IP range =  192.168.31.0 to 192.168.31.255
-        # Total usable IPs: 254
+Type this command: 
+
+    ipconfig
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/40bbcb0b-c4cd-4191-a828-9946f8c36838" />
+ 
+        IPv4 Address = 192.168.31.39
+        Subnet Mask = 255.255.255.0
+        Network IP range =  192.168.31.0 to 192.168.31.255
+        Total usable IPs: 254
 
 # Then found the Nmap report in command promt using same 192.168.31.0/24 in Target and command with nmap -sS 192.168.31.0/24
 # Found the tcp ports, services and open state in command prompt
