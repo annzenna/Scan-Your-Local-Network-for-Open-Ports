@@ -53,16 +53,18 @@ From nmap scanning identified the ports, Services and state of each ports
 
 # Identification of IP Range 
 
-How to find the IP range using the IP address and subnet mask
+How to find the IP range using the IP address and subnet mask.
+
 First need to open the command prompt using
 
     Press Win + R
     
-<img width="458" height="264" alt="image" src="https://github.com/user-attachments/assets/22e24c5f-e4b7-46d2-bcb1-bd96aea922ff" />
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/22e24c5f-e4b7-46d2-bcb1-bd96aea922ff" />
 
     Type cmd 
+
 press Enter.
-<img width="450" height="262" alt="image" src="https://github.com/user-attachments/assets/c49f7cbe-09ed-47d9-b0fc-100b14a9089f" />
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/c49f7cbe-09ed-47d9-b0fc-100b14a9089f" />
 
 # Command prompt opened
 <img width="1482" height="731" alt="image" src="https://github.com/user-attachments/assets/1fd11598-6c94-486b-801e-2e196c6d03ce" />
