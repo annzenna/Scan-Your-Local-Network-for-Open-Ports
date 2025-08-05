@@ -128,10 +128,19 @@ To install Wireshark on a Windows system, follow these steps:
 
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/da7c8c26-e769-4024-a8bd-5a1df357b884" />
 
-    
-    Choose the appropriate installer (usually the 64-bit Windows Installer).
+Choose the appropriate installer (usually the 64-bit Windows Installer).
 
+
+<img width="383" height="115" alt="image" src="https://github.com/user-attachments/assets/61d2c5c5-808e-4449-95c6-da3fbd0b326a" />
+
+
+<img width="581" height="481" alt="image" src="https://github.com/user-attachments/assets/0834a388-46e8-4121-96b3-f720e96853f2" />
+
+   
     Click Install to begin. Wait for the process to complete.
+
+<img width="576" height="476" alt="image" src="https://github.com/user-attachments/assets/7118ce1d-fbd6-4677-ad7e-58e347a9efdb" />
+    
 
 After Installation
    
