@@ -33,6 +33,7 @@ nmap -v scanme.nmap.org
 
 # From nmap scanning identified the ports, Services and state of each ports
 <img width="649" height="244" alt="image" src="https://github.com/user-attachments/assets/25ca2a7c-d281-4215-8f33-c7f0e87d4a3f" />
+<img width="726" height="309" alt="image" src="https://github.com/user-attachments/assets/bf100454-8447-4419-b7be-da5eb9678232" />
 
 # Identified open ports are 22, 80, 9929 and 31337
 # Services are ssh, http, nping-echo and Elite
