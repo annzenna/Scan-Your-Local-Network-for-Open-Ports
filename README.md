@@ -5,6 +5,8 @@
 # Selected Latest stable release self-installer: nmap-7.97-setup.exe
 # First identified the Nmap version using Zenmap
 nmap --version
+<img width="945" height="440" alt="image" src="https://github.com/user-attachments/assets/e8f164f3-956e-46ab-a4ce-287c6faadd3c" />
+
 # Then scanned the nmap
 nmap -v scanme.nmap.org
 # From nmap scanning identified the ports, Services and state of each ports
