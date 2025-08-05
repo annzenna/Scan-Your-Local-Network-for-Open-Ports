@@ -82,14 +82,22 @@ Type this command:
         Network IP range =  192.168.31.0 to 192.168.31.255
         Total usable IPs: 254
 
-# Then found the Nmap report in command promt using same 192.168.31.0/24 in Target and command with nmap -sS 192.168.31.0/24
-# Found the tcp ports, services and open state in command prompt
-# IP address is 192.168.31.138
-# Open ports are 135, 445 and 5432
-# Services are msrpc, microsoft-ds and postgresql
+After receving the Network IP Range need to take the nmap report using Zenmap, 
 
-# After that installed wireshark
-# Then analyzed the packet capture which newly created .pcap with Wireshark
+Entered target as 192.168.31.0/24 in the command promt and command with nmap -sS 192.168.31.0/24.
+ 
+    Found the tcp ports, services and open state in command prompt
+    IP address is 192.168.31.138
+    Open ports are 135, 445 and 5432
+    Services are msrpc, microsoft-ds and postgresql
+
+
+
+*****************************************************************************************************************************************************
+
+# Wireshark Installation
+
+Analyzed the packet capture which newly created .pcap with Wireshark
 # Found the three section and identified the service in the protocol section 
 # Identified the common service
 
