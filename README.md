@@ -1,7 +1,8 @@
 # Scan-Your-Local-Network-for-Open-Ports
 # Discover open ports in local network to understand network exposure.
 
-# Installed Nmap Zenmap (GUI) https://nmap.org/download.html#windows  & Wireshark
+# Installed Nmap Zenmap (GUI) https://nmap.org/download.html#windows 
+# Selected Latest stable release self-installer: nmap-7.97-setup.exe
 # First identified the Nmap version using Zenmap
 nmap --version
 # Then scanned the nmap
