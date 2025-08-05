@@ -39,7 +39,20 @@ nmap -v scanme.nmap.org
 # Services are ssh, http, nping-echo and Elite
 #------------------------------------------------------------------------------
 
-# Then identified the IP address and Subnet mask to get the IP range
+
+# Next need to find the IP range using the IP address and subnet mask
+# First need to open the command prompt using
+# Press Win + R, 
+<img width="458" height="264" alt="image" src="https://github.com/user-attachments/assets/22e24c5f-e4b7-46d2-bcb1-bd96aea922ff" />
+
+# Type cmd, press Enter.
+<img width="450" height="262" alt="image" src="https://github.com/user-attachments/assets/c49f7cbe-09ed-47d9-b0fc-100b14a9089f" />
+
+# Command prompt opened
+<img width="1482" height="731" alt="image" src="https://github.com/user-attachments/assets/1fd11598-6c94-486b-801e-2e196c6d03ce" />
+
+
+
 # IPv4 Address = 192.168.31.138
 # Subnet Mask = 255.255.255.0
 # Network IP range =  192.168.31.0 to 192.168.31.255
