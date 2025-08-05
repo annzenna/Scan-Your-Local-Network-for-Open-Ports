@@ -6,8 +6,7 @@ Official website : https://nmap.org/download.html
 
 <img width="1552" height="909" alt="image" src="https://github.com/user-attachments/assets/666d273a-43f3-4389-a7da-60d0618fa1bf" />
                 
-# Click on Windows
-    OR https://nmap.org/download.html#windows
+Click on Windows OR https://nmap.org/download.html#windows
 <img width="928" height="443" alt="image" src="https://github.com/user-attachments/assets/b766c06f-b939-429e-8839-a0603bccb5aa" />
                 
                 
