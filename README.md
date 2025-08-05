@@ -2,7 +2,7 @@
 # Discover open ports in local network to understand network exposure.
 #-----------------------------------------------------------------------------
 # Nmap Zenmap (GUI) Installation
-# Official website :
+#Official website :
     https://nmap.org/download.html
 <img width="1552" height="909" alt="image" src="https://github.com/user-attachments/assets/666d273a-43f3-4389-a7da-60d0618fa1bf" />
                 
