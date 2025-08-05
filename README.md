@@ -86,6 +86,14 @@ Type this command:
 Run below command to perform TCP SYN Scan
 
       nmap -sS 192.168.31.0/24
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/093bf114-aa1e-40ce-979a-31b8cd2889cf" />
+
+
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/2a6f040a-2bb6-4436-99ed-015affab64f5" />
+
+
       
 
 
@@ -93,10 +101,13 @@ Run below command to perform TCP SYN Scan
 After receving the Network IP Range need to take the nmap report using Zenmap, 
 
 Entered target as 192.168.31.0/24 in the command promt and command with nmap -sS 192.168.31.0/24.
+
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/a03043e0-9319-4f67-b139-c8f3a768ee3a" />
+
  
     Found the tcp ports, services and open state in command prompt
     IP address is 192.168.31.138
-    Open ports are 135, 445 and 5432
+    Open ports are 135, 139, 445 and 6646
     Services are msrpc, microsoft-ds and postgresql
 
 
@@ -110,6 +121,9 @@ To install Wireshark on a Windows system, follow these steps:
     Go to the official website: https://www.wireshark.org
     
     Click “Download” for Windows.
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/da7c8c26-e769-4024-a8bd-5a1df357b884" />
+
     
     Choose the appropriate installer (usually the 64-bit Windows Installer).
 
