@@ -94,7 +94,10 @@ Run below command to perform TCP SYN Scan
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/2a6f040a-2bb6-4436-99ed-015affab64f5" />
 
 
-      
+    Identified the tcp ports, services and open state in command prompt
+    IP address is 192.168.31.39
+    Open ports are 135, 139 and 445
+    Services are msrpc, netbios-ssn and microsoft-ds  
 
 
 
@@ -102,13 +105,14 @@ After receving the Network IP Range need to take the nmap report using Zenmap,
 
 Entered target as 192.168.31.0/24 in the command promt and command with nmap -sS 192.168.31.0/24.
 
-<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/a03043e0-9319-4f67-b139-c8f3a768ee3a" />
+<img width="300" height="700" alt="image" src="https://github.com/user-attachments/assets/61b7caef-d8fe-431b-9ceb-42e6000cc6ed" />
+
 
  
-    Found the tcp ports, services and open state in command prompt
-    IP address is 192.168.31.138
-    Open ports are 135, 139, 445 and 6646
-    Services are msrpc, microsoft-ds and postgresql
+    Identified the tcp ports, services and open state in Zenmap
+    IP address is 192.168.31.39
+    Open ports are 135, 139 and 445
+    Services are msrpc, netbios-ssn and microsoft-ds  
 
 
 
