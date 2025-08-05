@@ -35,8 +35,6 @@ nmap -v scanme.nmap.org
 <img width="649" height="244" alt="image" src="https://github.com/user-attachments/assets/25ca2a7c-d281-4215-8f33-c7f0e87d4a3f" />
 <img width="726" height="309" alt="image" src="https://github.com/user-attachments/assets/bf100454-8447-4419-b7be-da5eb9678232" />
 
-# Identified open ports are 22, 80, 9929 and 31337
-# Services are ssh, http, nping-echo and Elite
 #------------------------------------------------------------------------------
 
 
@@ -51,12 +49,14 @@ nmap -v scanme.nmap.org
 # Command prompt opened
 <img width="1482" height="731" alt="image" src="https://github.com/user-attachments/assets/1fd11598-6c94-486b-801e-2e196c6d03ce" />
 
+# Next need to type this command: ipconfig
+<img width="910" height="684" alt="image" src="https://github.com/user-attachments/assets/40bbcb0b-c4cd-4191-a828-9946f8c36838" />
 
-
-# IPv4 Address = 192.168.31.138
-# Subnet Mask = 255.255.255.0
-# Network IP range =  192.168.31.0 to 192.168.31.255
-# Total usable IPs: 254
+# Found 
+        # IPv4 Address = 192.168.31.39
+        # Subnet Mask = 255.255.255.0
+        # Network IP range =  192.168.31.0 to 192.168.31.255
+        # Total usable IPs: 254
 
 # Then found the Nmap report in command promt using same 192.168.31.0/24 in Target and command with nmap -sS 192.168.31.0/24
 # Found the tcp ports, services and open state in command prompt
