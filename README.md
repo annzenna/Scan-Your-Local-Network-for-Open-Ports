@@ -43,18 +43,25 @@ nmap -v scanme.nmap.org
 
 
 From nmap scanning identified the ports, Services and state of each ports
-<img width="649" height="244" alt="image" src="https://github.com/user-attachments/assets/25ca2a7c-d281-4215-8f33-c7f0e87d4a3f" />
-<img width="726" height="309" alt="image" src="https://github.com/user-attachments/assets/bf100454-8447-4419-b7be-da5eb9678232" />
+
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/25ca2a7c-d281-4215-8f33-c7f0e87d4a3f" />
+
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/bf100454-8447-4419-b7be-da5eb9678232" />
 
 #------------------------------------------------------------------------------
 
 
-# Next need to find the IP range using the IP address and subnet mask
-# First need to open the command prompt using
-# Press Win + R, 
+# Identification of IP Range 
+
+How to find the IP range using the IP address and subnet mask
+First need to open the command prompt using
+
+    Press Win + R
+    
 <img width="458" height="264" alt="image" src="https://github.com/user-attachments/assets/22e24c5f-e4b7-46d2-bcb1-bd96aea922ff" />
 
-# Type cmd, press Enter.
+    Type cmd 
+press Enter.
 <img width="450" height="262" alt="image" src="https://github.com/user-attachments/assets/c49f7cbe-09ed-47d9-b0fc-100b14a9089f" />
 
 # Command prompt opened
