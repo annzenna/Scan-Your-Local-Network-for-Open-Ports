@@ -1,8 +1,9 @@
 # Scan-Your-Local-Network-for-Open-Ports
 # Discover open ports in local network to understand network exposure.
 #-----------------------------------------------------------------------------
-# Installed Nmap Zenmap (GUI) 
-    # Go to Official website https://nmap.org/download.html
+# Nmap Zenmap (GUI) Installation
+# Go to Official website 
+    https://nmap.org/download.html
 <img width="1552" height="909" alt="image" src="https://github.com/user-attachments/assets/666d273a-43f3-4389-a7da-60d0618fa1bf" />
                 
     # Click on Windows
