@@ -1,6 +1,6 @@
 # Scan-Your-Local-Network-for-Open-Ports
 # Discover open ports in local network to understand network exposure.
-
+#-----------------------------------------------------------------------------
 # Installed Nmap Zenmap (GUI) https://nmap.org/download.html#windows 
 <img width="928" height="443" alt="image" src="https://github.com/user-attachments/assets/b766c06f-b939-429e-8839-a0603bccb5aa" />
 
@@ -9,7 +9,7 @@
 <img width="379" height="72" alt="image" src="https://github.com/user-attachments/assets/d526f8c9-b8b2-4384-a60d-4af87479c817" />
 
 
-
+#------------------------------------------------------------------------------
 # First identified the Nmap version using Zenmap
 nmap --version
 <img width="945" height="440" alt="image" src="https://github.com/user-attachments/assets/e8f164f3-956e-46ab-a4ce-287c6faadd3c" />
@@ -27,6 +27,7 @@ nmap -v scanme.nmap.org
 
 # Identified open ports are 22, 80, 9929 and 31337
 # Services are ssh, http, nping-echo and Elite
+#------------------------------------------------------------------------------
 
 # Then identified the IP address and Subnet mask to get the IP range
 # IPv4 Address = 192.168.31.138
