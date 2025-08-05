@@ -1,7 +1,7 @@
 # Scan-Your-Local-Network-for-Open-Ports
 # Discover open ports in local network to understand network exposure.
 
-*****************************************************************************************************************************************************
+********************************************************************************************************************************
 
 # Nmap Zenmap (GUI) Installation
 
@@ -48,7 +48,9 @@ From nmap scanning identified the ports, Services and state of each ports
 
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/bf100454-8447-4419-b7be-da5eb9678232" />
 
-#------------------------------------------------------------------------------
+
+
+********************************************************************************************************************************
 
 
 # Identification of IP Range 
@@ -128,32 +130,74 @@ To install Wireshark on a Windows system, follow these steps:
 
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/da7c8c26-e769-4024-a8bd-5a1df357b884" />
 
+
+
 Choose the appropriate installer (usually the 64-bit Windows Installer).
 
 
-<img width="383" height="115" alt="image" src="https://github.com/user-attachments/assets/61d2c5c5-808e-4449-95c6-da3fbd0b326a" />
+<img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/61d2c5c5-808e-4449-95c6-da3fbd0b326a" />
 
 
-<img width="581" height="481" alt="image" src="https://github.com/user-attachments/assets/0834a388-46e8-4121-96b3-f720e96853f2" />
 
-   
     Click Install to begin. Wait for the process to complete.
 
-<img width="576" height="476" alt="image" src="https://github.com/user-attachments/assets/7118ce1d-fbd6-4677-ad7e-58e347a9efdb" />
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/0834a388-46e8-4121-96b3-f720e96853f2" />
+
+   
+    
+    
+    
+
+
+
+
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/7118ce1d-fbd6-4677-ad7e-58e347a9efdb" />
     
 
 After Installation
    
     Launch Wireshark from the desktop or Start Menu.
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/82d9ba74-599f-4a31-9316-f70dbf94e5c3" />
+
     
     Select a network interface to start capturing packets.
 
-
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/7fffea3b-578b-4941-a64c-90f773769c89" />
 
 
 Analyzed the packet capture which newly created .pcap with Wireshark
+
+<img width="500" height="50" alt="image" src="https://github.com/user-attachments/assets/0b45675f-936f-493c-ad16-7ad4c7022273" />
+
 Found the three section and identified the service in the protocol section 
+
+<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/9fbc83a9-6f0a-4623-8403-2b1521629fb9" />
+
+
+<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/ea35c653-263e-4975-9d1c-a26d2fabd224" />
+
+
 Identified the common service
+
+Looked at both source and destination ports in TCP and UDP traffic.
+
+Use filter: tcp or udp
+
+Then go to Statistics > Endpoints > TCP/UDP tabs to list ports
+
+TCP
+
+<img width="1000" height="250" alt="image" src="https://github.com/user-attachments/assets/772e3ee2-1c57-44ea-aa6f-0cd9784252c9" />
+
+UDP
+
+<img width="1000" height="250" alt="image" src="https://github.com/user-attachments/assets/b39addcc-9f53-4b5c-bfca-69e7ce760db7" />
+
+
+
 
 Identified the risk from open port like 
 
@@ -169,4 +213,6 @@ Identified the risk from open port like
     Practiced the Nmap Scanning to identify the open ports
     Identification of IP address, subnet Mak and IP Range Identified
     Identified the risks of the open port
+    Identified the common services in the .pcap file
+    
     
