@@ -22,12 +22,16 @@ Selected Latest stable release self-installer: nmap-7.97-setup.exe
 
 
 After installation open Command Prompt or Zenmap GUI.
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fd613431-7b24-4976-a480-dd0483c35cd6" />
+
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fd613431-7b24-4976-a480-dd0483c35cd6" />
 
 
 Identified the Nmap version using Zenmap
+
 nmap --version
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e8f164f3-956e-46ab-a4ce-287c6faadd3c" />
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/e8f164f3-956e-46ab-a4ce-287c6faadd3c" />
 
 
 
@@ -38,7 +42,7 @@ nmap -v scanme.nmap.org
 
 
 
-# From nmap scanning identified the ports, Services and state of each ports
+From nmap scanning identified the ports, Services and state of each ports
 <img width="649" height="244" alt="image" src="https://github.com/user-attachments/assets/25ca2a7c-d281-4215-8f33-c7f0e87d4a3f" />
 <img width="726" height="309" alt="image" src="https://github.com/user-attachments/assets/bf100454-8447-4419-b7be-da5eb9678232" />
 
