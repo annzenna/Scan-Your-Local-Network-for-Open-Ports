@@ -22,18 +22,18 @@ Selected Latest stable release self-installer: nmap-7.97-setup.exe
 
 
 #  After installation open Command Prompt or Zenmap GUI.
-<img width="708" height="688" alt="image" src="https://github.com/user-attachments/assets/fd613431-7b24-4976-a480-dd0483c35cd6" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fd613431-7b24-4976-a480-dd0483c35cd6" />
 
 
 # First identified the Nmap version using Zenmap
 nmap --version
-<img width="945" height="440" alt="image" src="https://github.com/user-attachments/assets/e8f164f3-956e-46ab-a4ce-287c6faadd3c" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e8f164f3-956e-46ab-a4ce-287c6faadd3c" />
 
 
 
 # Then scanned the nmap
 nmap -v scanme.nmap.org
-<img width="954" height="1002" alt="image" src="https://github.com/user-attachments/assets/743b5a5f-5c76-4b3f-813f-c181fe5ffadf" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/743b5a5f-5c76-4b3f-813f-c181fe5ffadf" />
 
 
 
